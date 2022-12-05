@@ -1,23 +1,7 @@
 {
    "id_number" : "1001",
    "country" : "USA",
-   "display_Name" : "David Taylor",
    "first_name" : "David",
    "last_name" : "Taylor",
-   "state" : "CA",
-   "birthday" : "1998-06-14",
-   "contactEntries" : [
-      {
-         "entryId" : "tel:0",
-         "label" : "home",
-         "type" : "tel",
-         "uri" : "555-610-6679"
-      },
-      {
-         "entryId" : "tel:1",
-         "label" : "work",
-         "type" : "tel",
-         "uri" : "+420 276 285 602"
-      }
-   ]
+   "birthday" : "1998-06-14"
 }

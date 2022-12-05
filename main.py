@@ -1,7 +1,6 @@
 # This is a sample Python script.
 import os.path
 import sys
-import unittest
 from datetime import datetime
 # import time
 # import yaml
@@ -56,15 +55,18 @@ def config_LogFile():
     LogFile("")
 
 
+from data.func_exer1 import get_reapating
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-    config_LogFile()
-    unittest.main()
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # config_LogFile()
+    # unittest.main()
+
+    # number = int(input("Enter Number ->"))
+    # getserries(number)
+
+    # strs = input("Enter Characters->")
+    get_reapating('abcdefggAC')
+
+    # remove_dups('abcabcdefghijkhijk')
+
+
